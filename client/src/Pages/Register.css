@@ -1,0 +1,24 @@
+@media (min-width:1400px) {
+    .Registerr {
+        width: 60%;
+        height: 70%;
+    }
+}
+@media (max-width:1400px) {
+    .Registerr {
+        width: 80%;
+        height: 70%;
+    }
+}
+@media (max-width:768px) {
+    .Registerr {
+        width: 80%;
+        height: 80%;
+    }
+}
+@media (max-width:500px) {
+    .Registerr {
+        width: 90%;
+        height: 90%;
+    }
+}

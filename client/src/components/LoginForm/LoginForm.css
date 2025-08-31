@@ -1,0 +1,44 @@
+@media (min-width: 1000px) {
+    .Headerr {
+        font-size: 25px;
+    }
+    .Popkaa {
+        font-size: 11px;
+    }
+    .Kakashkaa {
+        width: 40%;
+    }
+}
+@media (max-width: 1000px) {
+    .Headerr {
+        font-size: 20px;
+    }
+    .Popkaa {
+        font-size: 10px;
+    }
+    .Kakashkaa {
+        width: 60%;
+    }
+}
+@media (max-width: 850px) {
+    .Headerr {
+        font-size: 20px;
+    }
+    .Popkaa {
+        font-size: 10px;
+    }
+    .Kakashkaa {
+        width: 80%;
+    }
+}
+@media (max-width: 500px) {
+    .Headerr {
+        font-size: 20px;
+    }
+    .Popkaa {
+        font-size: 10px;
+    }
+    .Kakashkaa {
+        width: 90%;
+    }
+}

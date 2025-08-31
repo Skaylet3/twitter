@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.Roboto {
+    font-family: "Roboto", sans-serif;
+}
+.OpenSans {
+  font-family: "Open Sans", sans-serif;
+}
+.Lato {
+  font-family: "Lato", sans-serif;
+}
+.Segoe {
+  font-family: "Segoe UI", sans-serif;
+}

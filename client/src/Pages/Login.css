@@ -1,0 +1,24 @@
+@media (min-width:1400px) {
+    .Login {
+        width: 60%;
+        height: 70%;
+    }
+}
+@media (max-width:1400px) {
+    .Login {
+        width: 80%;
+        height: 70%;
+    }
+}
+@media (max-width:768px) {
+    .Login {
+        width: 80%;
+        height: 80%;
+    }
+}
+@media (max-width:500px) {
+    .Login {
+        width: 90%;
+        height: 90%;
+    }
+}
