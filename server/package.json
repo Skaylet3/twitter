@@ -1,29 +1,39 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "main": "server.js",
   "type": "module",
+  "main": "dist/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "dev": "tsx watch src/server.ts",
+    "start": "node dist/server.js",
+    "typecheck": "tsc --noEmit"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
-    "bcrypt": "^6.0.0",
-    "cookie-parser": "^1.4.7",
-    "cors": "^2.8.5",
-    "dotenv": "^16.5.0",
-    "express": "^5.1.0",
-    "express-rate-limit": "^8.0.1",
-    "ioredis": "^5.7.0",
-    "jsonwebtoken": "^9.0.2",
-    "mongoose": "^8.16.0",
-    "multer": "^2.0.1",
-    "nanoid": "^5.1.5",
-    "pg": "^8.16.3",
-    "rate-limit-redis": "^4.2.1",
-    "socket.io": "^4.8.1"
+    "bcrypt": "latest",
+    "cookie-parser": "latest",
+    "cors": "latest",
+    "dotenv": "latest",
+    "express": "latest",
+    "express-rate-limit": "latest",
+    "ioredis": "latest",
+    "jsonwebtoken": "latest",
+    "mongoose": "latest",
+    "multer": "latest",
+    "nanoid": "latest",
+    "rate-limit-redis": "latest",
+    "socket.io": "latest"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "latest",
+    "@types/cookie-parser": "latest",
+    "@types/cors": "latest",
+    "@types/express": "latest",
+    "@types/jsonwebtoken": "latest",
+    "@types/node": "latest",
+    "@types/rate-limit-redis": "latest",
+    "@types/socket.io": "latest",
+    "tsx": "^4.20.6",
+    "typescript": "latest"
   }
 }
